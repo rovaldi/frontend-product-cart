@@ -1,0 +1,43 @@
+.description {
+  background-color: var(--hemocyanin);
+  margin: 0 -4rem;
+  padding: 2rem 4rem;
+
+  & .subtitle {
+    margin-top: 0;
+  }
+}
+
+.description__text {
+  font-size: 1.6rem;
+  font-weight: var(--font-light);
+  line-height: 1.6;
+}
+
+.subtitle {
+  font-size: 2.5rem;
+  font-weight: var(--font-medium);
+  margin: 2rem 0;
+
+  &::first-letter {
+    text-transform: capitalize;
+  }
+}
+
+.spec-list {
+  display: grid;
+  grid-template: auto / 17rem 1fr;
+  margin: 0;
+  row-gap: 2rem;
+
+  & dd {
+    margin-left: 0;
+  }
+
+  & dt,
+  & dd {
+    &::first-letter {
+      text-transform: capitalize;
+    }
+  }
+}

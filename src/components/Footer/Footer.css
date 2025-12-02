@@ -1,0 +1,10 @@
+.footer {
+  background-color: var(--hemocyanin);
+  font-size: 1.1rem;
+  font-weight: var(--font-light);
+  padding: 2.5rem 4rem;
+}
+
+.footer__text {
+  color: var(--purpleHaze);
+}

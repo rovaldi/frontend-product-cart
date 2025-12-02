@@ -1,0 +1,63 @@
+:root {
+  --hemocyanin: #180048;
+  --ice: #f0ffff;
+  --plum: #600e6b;
+  --purpleHaze: #a49fc8;
+  --siphon: #100030;
+  --sohoLights: #f050f8;
+  --font-light: 300;
+  --font-medium: 500;
+  --font-bold: 800;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  color: var(--ice);
+  font-family: Gotham, helvetica, arial, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.global-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+button {
+  padding: 0;
+  outline: none;
+}
+
+body {
+  background: var(--siphon);
+  font-size: 1.4rem;
+}
+
+@keyframes fadeInScale {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

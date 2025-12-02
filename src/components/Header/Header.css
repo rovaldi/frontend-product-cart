@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 3.4rem 4rem 4.5rem;
+}
+
+.logo {
+  height: 3rem;
+  width: 22rem;
+}
+
+.header__logo,
+.header__cart {
+  flex-shrink: 0;
+  line-height: 0;
+}
+
+.header__cart {
+  position: relative;
+}
+
+.cart__icon {
+  fill: var(--ice);
+  height: 3rem;
+  width: 3.4rem;
+}
+
+.cart__count {
+  align-items: center;
+  animation: fadeInScale 0.3s ease-in-out;
+  background-color: var(--sohoLights);
+  border-radius: 50%;
+  color: var(--ice);
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: var(--font-bold);
+  height: 2rem;
+  justify-content: center;
+  position: absolute;
+  right: -0.5rem;
+  top: -0.5rem;
+  width: 2rem;
+}

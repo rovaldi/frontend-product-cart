@@ -100,4 +100,8 @@ The workflow configuration can be found in [`.github/workflows/ci.yml`](.github/
 
 ## License
 
-This project is part of a test and is not intended for production use.
+This project is licensed for **non-commercial use only**. You are free to use, copy, and modify the code **for personal or educational purposes**, but **you must give credit to the original author** (Roberto Valcárcel Diaz).
+
+Commercial use is strictly prohibited without explicit written permission from the author.
+
+For full license details, see the [LICENSE](LICENSE) file.
